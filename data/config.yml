@@ -74,7 +74,7 @@ services:
       - name: "Proxmox"
         logo: "assets/tools/sample.png"
         subtitle: "Proxmox Aztlan"
-        tag: "app"
+        tag: "Main"
         keywords: "Proxmox Aztlan"
         url: "https://datacenter.aton:8006/"
         target: "_blank" # optional html a tag target attribute
@@ -82,21 +82,21 @@ services:
       - name: "Pi-Hole"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
-        tag: "app"
+        tag: "Service"
         keywords: "Pi-Hole"
         url: "http://dns.aton/admin"
 
       - name: "Portainer"
         logo: "assets/tools/sample.png"
         subtitle: "Kubernates Adminsitrator"
-        tag: "app"
+        tag: "Service"
         keywords: "portainer"
         url: "http://portainer.aton:9000/"
       
       - name: "Adguard-dns"
         logo: "assets/tools/sample.png"
         subtitle: "adguard-dns"
-        tag: "app"
+        tag: "Service"
         keywords: "adguard-dns"
         url: "https://adguard-dns.io/es/dashboard/"
 
