@@ -99,3 +99,10 @@ services:
         tag: "app"
         keywords: "adguard-dns"
         url: "https://adguard-dns.io/es/dashboard/"
+
+      - name: "Cisco"
+        logo: "assets/tools/sample.png"
+        subtitle: "Cisco"
+        tag: "router"
+        keywords: "Cisco"
+        url: "https://192.168.21.1/cgi-bin/welcome.cgi"
