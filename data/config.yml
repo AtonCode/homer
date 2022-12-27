@@ -106,3 +106,10 @@ services:
         tag: "router"
         keywords: "Cisco"
         url: "https://192.168.21.1/cgi-bin/welcome.cgi"
+
+      - name: "Gitlab"
+        logo: "assets/tools/sample.png"
+        subtitle: "Gitlab"
+        tag: "Service"
+        keywords: "Gitlab"
+        url: "http://portainer.aton:32769/"
