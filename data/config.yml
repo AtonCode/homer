@@ -112,4 +112,4 @@ services:
         subtitle: "Gitlab"
         tag: "Service"
         keywords: "Gitlab"
-        url: "http://portainer.aton:32769/"
+        url: "http://portainer.aton:32769/atoncode"
