@@ -112,7 +112,7 @@ services:
         subtitle: "Gitlab"
         tag: "Service"
         keywords: "Gitlab"
-        url: "http://portainer.aton:32769/atoncode"
+        url: "http://portainer.aton:8081/atoncode"
 
       - name: "NextCloud"
         logo: "assets/tools/sample.png"
