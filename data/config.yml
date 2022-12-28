@@ -86,13 +86,20 @@ services:
         keywords: "Pi-Hole"
         url: "http://dns.aton/admin"
 
-      - name: "Portainer"
+      - name: "Portainer Head"
         logo: "assets/tools/sample.png"
         subtitle: "Kubernates Adminsitrator"
         tag: "Service"
         keywords: "portainer"
-        url: "http://portainer.aton:9000/"
-      
+        url: "http://portainer-head.aton:9000/"
+
+      - name: "Portainer Worker One"
+        logo: "assets/tools/sample.png"
+        subtitle: "Kubernates Adminsitrator"
+        tag: "Service"
+        keywords: "portainer"
+        url: "http://portainer-worker-one.aton:9000/"
+
       - name: "Adguard-dns"
         logo: "assets/tools/sample.png"
         subtitle: "adguard-dns"
