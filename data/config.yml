@@ -79,14 +79,14 @@ services:
         url: "https://datacenter.aton:8006/"
         target: "_blank" # optional html a tag target attribute
 
-      - name: "DNS-2"
+      - name: "DNS-1"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
         tag: "Service"
         keywords: "Pi-Hole"
         url: "http://192.168.21.109/admin"
 
-      - name: "DNS-1"
+      - name: "DNS-2"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
         tag: "Service"
@@ -119,7 +119,7 @@ services:
         subtitle: "Gitlab"
         tag: "Service"
         keywords: "Gitlab"
-        url: "http://docker.aton:32783/atoncode"
+        url: "http://docker.aton:32777/"
 
       - name: "NextCloud"
         logo: "assets/tools/sample.png"
