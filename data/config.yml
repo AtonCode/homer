@@ -119,7 +119,7 @@ services:
         subtitle: "Gitlab"
         tag: "Service"
         keywords: "Gitlab"
-        url: "http://docker.aton:32777/"
+        url: "https://similar-damselfly-jjort5.p5uq6akz.traefikhub.io/"
 
       - name: "NextCloud"
         logo: "assets/tools/sample.png"
