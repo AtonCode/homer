@@ -127,3 +127,10 @@ services:
         tag: "Service"
         keywords: "NextCloud"
         url: "https://nextcloud.aton/"
+
+      - name: "Traefik"
+        logo: "assets/tools/sample.png"
+        subtitle: "Traefik"
+        tag: "Service"
+        keywords: "Traefik"
+        url: "https://hub.traefik.io/dashboard"
