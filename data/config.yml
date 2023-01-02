@@ -134,3 +134,11 @@ services:
         tag: "Service"
         keywords: "Traefik"
         url: "https://hub.traefik.io/dashboard"
+
+      - name: "Ghost"
+        logo: "assets/tools/sample.png"
+        subtitle: "Blog"
+        tag: "Service"
+        keywords: "Traefik"
+        url: "http://docker.aton:9090/ghost/
+
