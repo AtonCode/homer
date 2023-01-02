@@ -140,5 +140,5 @@ services:
         subtitle: "Blog"
         tag: "Service"
         keywords: "Traefik"
-        url: "http://docker.aton:9090/ghost/
+        url: "http://docker.aton:9090/ghost/"
 
