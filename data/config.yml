@@ -142,3 +142,10 @@ services:
         keywords: "Traefik"
         url: "http://docker.aton:9090/ghost/"
 
+      - name: "Internet Dashboard"
+        logo: "assets/tools/sample.png"
+        subtitle: "Internet-Dashboard"
+        tag: "services"
+        keywords: "Dashboard"
+        url: "http://docker.aton:3030/d/o9mIe_Aik/internet-connection?orgId=1&refresh=1h&from=now-12h&to=now"
+
