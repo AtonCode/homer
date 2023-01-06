@@ -71,12 +71,19 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
+      - name: "Router"
+        logo: "assets/tools/sample.png"
+        subtitle: "router"
+        tag: "router"
+        keywords: "router"
+        url: "http://10.0.1.1/"
+        
       - name: "Proxmox"
         logo: "assets/tools/sample.png"
         subtitle: "Proxmox Aztlan"
         tag: "Main"
         keywords: "Proxmox Aztlan"
-        url: "https://datacenter.aton:8006/"
+        url: "https://10.0.1.100:8006/"
         target: "_blank" # optional html a tag target attribute
 
       - name: "DNS-1"
@@ -84,14 +91,14 @@ services:
         subtitle: "DNS Local"
         tag: "Service"
         keywords: "Pi-Hole"
-        url: "http://192.168.21.109/admin"
+        url: "http://10.0.1.104/admin"
 
       - name: "DNS-2"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
         tag: "Service"
         keywords: "Pi-Hole"
-        url: "http://192.168.21.107/admin"
+        url: "http://10.0.1.104/admin"
 
       - name: "Portainer Docker"
         logo: "assets/tools/sample.png"
@@ -106,13 +113,6 @@ services:
         tag: "Service"
         keywords: "adguard-dns"
         url: "https://adguard-dns.io/es/dashboard/"
-
-      - name: "Cisco"
-        logo: "assets/tools/sample.png"
-        subtitle: "Cisco"
-        tag: "router"
-        keywords: "Cisco"
-        url: "https://192.168.21.1/cgi-bin/welcome.cgi"
 
       - name: "Gitlab"
         logo: "assets/tools/sample.png"
