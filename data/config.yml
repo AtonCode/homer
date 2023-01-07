@@ -100,12 +100,12 @@ services:
         keywords: "Pi-Hole"
         url: "http://10.0.1.104/admin"
 
-      - name: "Portainer Docker"
+      - name: "Yacht Docker"
         logo: "assets/tools/sample.png"
         subtitle: "Kubernates Adminsitrator"
         tag: "Service"
-        keywords: "portainer"
-        url: "http://docker.aton:9000/"
+        keywords: "Yacht"
+        url: "http://docker.aton:8000/"
 
       - name: "Adguard-dns"
         logo: "assets/tools/sample.png"
