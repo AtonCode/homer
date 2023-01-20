@@ -67,17 +67,18 @@ links:
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
 services:
-  - name: "Applications"
+  - name: "Adminstrator"
     icon: "fas fa-cloud"
     items:
-      - name: "Router"
+      - name: "Main Router"
         logo: "assets/tools/sample.png"
         subtitle: "router"
         tag: "router"
         keywords: "router"
         url: "http://10.0.1.1/"
-        
+      
       - name: "Proxmox"
         logo: "assets/tools/sample.png"
         subtitle: "Proxmox Aztlan"
@@ -85,41 +86,45 @@ services:
         keywords: "Proxmox Aztlan"
         url: "https://10.0.1.100:8006/"
         target: "_blank" # optional html a tag target attribute
+      
+      - name: "Internet Dashboard"
+        logo: "assets/tools/sample.png"
+        subtitle: "Internet-Dashboard"
+        tag: "services"
+        keywords: "Dashboard"
+        url: "http://docker.aton:3030"
 
+  - name: "Services"
+    icon: "fas fa-cloud"
+    items:
+      
       - name: "DNS-1"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
         tag: "Service"
         keywords: "Pi-Hole"
-        url: "http://10.0.1.104/admin"
+        url: "http://10.0.1.102/admin"
 
       - name: "DNS-2"
         logo: "assets/tools/sample.png"
         subtitle: "DNS Local"
         tag: "Service"
         keywords: "Pi-Hole"
-        url: "http://10.0.1.104/admin"
+        url: "http://10.0.1.103/admin"
 
-      - name: "Yacht Docker"
+      - name: "Docker"
         logo: "assets/tools/sample.png"
-        subtitle: "Kubernates Adminsitrator"
+        subtitle: "Docker"
         tag: "Service"
-        keywords: "Yacht"
-        url: "http://docker.aton:8000/"
-
-      - name: "Adguard-dns"
-        logo: "assets/tools/sample.png"
-        subtitle: "adguard-dns"
-        tag: "Service"
-        keywords: "adguard-dns"
-        url: "https://adguard-dns.io/es/dashboard/"
+        keywords: "Docker"
+        url: "http://docker.aton:9000/"
 
       - name: "Gitlab"
         logo: "assets/tools/sample.png"
         subtitle: "Gitlab"
         tag: "Service"
         keywords: "Gitlab"
-        url: "http://docker.aton:32780/"
+        url: "http://docker.aton:8880/"
 
       - name: "NextCloud"
         logo: "assets/tools/sample.png"
@@ -128,24 +133,36 @@ services:
         keywords: "NextCloud"
         url: "https://nextcloud.aton/"
 
-      - name: "Traefik"
-        logo: "assets/tools/sample.png"
-        subtitle: "Traefik"
-        tag: "Service"
-        keywords: "Traefik"
-        url: "https://hub.traefik.io/dashboard"
-
-      - name: "Ghost"
+      - name: "blog.atoncode"
         logo: "assets/tools/sample.png"
         subtitle: "Blog"
         tag: "Service"
         keywords: "Traefik"
-        url: "http://docker.aton:9090/ghost/"
-
-      - name: "Internet Dashboard"
+        url: "http://10.0.1.111/ghost/"
+      
+      - name: "Deemix"
         logo: "assets/tools/sample.png"
-        subtitle: "Internet-Dashboard"
-        tag: "services"
-        keywords: "Dashboard"
-        url: "http://docker.aton:3030/d/o9mIe_Aik/internet-connection?orgId=1&refresh=1h&from=now-12h&to=now"
+        subtitle: "Music Downloader"
+        tag: "Service"
+        keywords: "Deemix"
+        url: "http://docker.aton:6595/"
+
+      
+    - name: "External Services"
+      icon: "fas fa-cloud"
+      items:
+
+      - name: "Adguard-dns"
+        logo: "assets/tools/sample.png"
+        subtitle: "adguard-dns"
+        tag: "External Service"
+        keywords: "adguard-dns"
+        url: "https://adguard-dns.io/es/dashboard/"
+
+      - name: "Traefik"
+        logo: "assets/tools/sample.png"
+        subtitle: "Traefik"
+        tag: "External Service"
+        keywords: "Traefik"
+        url: "https://hub.traefik.io/dashboard"
 
