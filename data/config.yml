@@ -147,10 +147,9 @@ services:
         keywords: "Deemix"
         url: "http://docker.aton:6595/"
 
-      
-    - name: "External Services"
-      icon: "fas fa-cloud"
-      items:
+  - name: "External Services"
+    icon: "fas fa-cloud"
+    items:
 
       - name: "Adguard-dns"
         logo: "assets/tools/sample.png"
