@@ -7,7 +7,7 @@ services:
     #build: .
     container_name: homer
     volumes:
-      - /root/containers/homer/data:/www/assets
+      - /root/homer/data:/www/assets
     ports:
       - 8080:8080
     user: 0:0 # default
