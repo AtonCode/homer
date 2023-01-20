@@ -146,6 +146,13 @@ services:
         tag: "Service"
         keywords: "Deemix"
         url: "http://docker.aton:6595/"
+      
+      - name: "Jitsi"
+        logo: "assets/tools/sample.png"
+        subtitle: "Video Conference"
+        tag: "Service"
+        keywords: "Jitsi"
+        url: "http://jitsi.aton/"
 
   - name: "External Services"
     icon: "fas fa-cloud"
